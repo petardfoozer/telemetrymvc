@@ -5,11 +5,12 @@
         }
 
         public function index(){
-            $data = ['title' => 'Welcome'];
+            $data = ['title' => 'Welcome to Telemetry MVC Framework'];
             $this->renderView('pages/index', $data);
         }
 
         public function about(){
-            $this->renderView('pages/about');
+            $data = ['title' => 'About Us'];
+            $this->renderView('pages/about', $data);
         }
     }

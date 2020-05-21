@@ -8,13 +8,13 @@
         /**
          * Loads the model
          */
-        public function model(string $model){
+        public function model($model){
             //require model file
             require_once '../app/models/' . $model . '.php';
             return new $model();
         }
 
-        public function renderView(string $view, array $data = []){
+        public function renderView($view, $data = []){
             //check for the view file
             if(file_exists('../app/views/' . $view . '.php')){
                 require_once '../app/views/' . $view . '.php';
