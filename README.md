@@ -1,3 +1,7 @@
+![](https://github.com/petardfoozer/telemetrymvc/blob/master/public/images/telemetry.PNG)
+
+
+
 # telemetrymvc
 An open source PHP framework
 
