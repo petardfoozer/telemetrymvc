@@ -9,8 +9,7 @@ define('DB_NAME', '_YOUR_DATABASE_NAME_');
 //App route
 define('APP_ROOT', dirname(dirname(__FILE__)));
 
-//URL route
-define('URL_ROUTE', '_YOUR_URL_');
-
-//Site name
-define('SITE_NAME', '_YOUR_SITENAME_');
+// url route
+define('URL_ROOT', 'http://localhost/telemetrymvc');
+// Site Name
+define('SITE_NAME', 'TelemetryMVC');
