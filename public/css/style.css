@@ -9,3 +9,8 @@ body {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  #skew {
+    transform: skew(-15deg);
+    background: rgb(164, 215, 224);
+  }

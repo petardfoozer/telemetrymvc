@@ -5,7 +5,7 @@
         }
 
         public function index(){
-            $data = ['title' => 'Welcome to Telemetry MVC Framework'];
+            $data = ['title' => 'Telemetry MVC Framework'];
             $this->renderView('pages/index', $data);
         }
 
